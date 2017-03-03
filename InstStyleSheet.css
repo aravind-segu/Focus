@@ -1,0 +1,79 @@
+body {
+	background-color: #565656;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#blockedTitle {
+	color: #D7CEC7;
+	font-family: Century Gothic, Helvetica;	
+	font-size: 3vw;
+	position: absolute;
+    margin-top: 2.76vw;
+	margin-left : 19.84vw;
+}
+
+#blockedBody {
+position: absolute;
+  margin-top: 19.86vw;
+  margin-left : 3.84vw;
+
+}
+.content{
+	color: #D7CEC7;
+	font-family: Century Gothic, Helvetica;	
+	font-size: 2.36vw;
+	position: absolute;
+	width: 118.4vw;
+	height:39.5vw;
+}
+#popup{
+	margin-left: 7.89vw;
+	margin-top: 31.57vw;
+	position: absolute;
+	
+}
+img.popupimg{
+	width: 42.6vw;
+	height:27.75vw;
+	border:0.39vw solid #D7CEC7;
+}
+
+#options{
+	margin-left: 7.89vw;
+	margin-top: 63.15vw;
+	padding-bottom: 7.89vw;
+	position: absolute;
+}
+
+img.logo { 
+   width: 40.6vw;
+	height:15.75vw;
+	margin-left: 8vw;
+}
+
+.caption{
+	color: #D7CEC7;
+	font-family: Century Gothic, Helvetica;	
+	font-size:1.42vw;
+	position: absolute;
+	width: 39.47vw;
+	height: 39.47vw;
+	
+}
+#popupCaption{
+	margin-left: 55.94vw;
+	margin-top: 39.47vw;
+	position: absolute;
+}
+
+#optionCaption{
+	width: 39.47vw;
+	height: 39.47vw;
+	margin-left: 55.94vw;
+	margin-top: 63.15vw;
+	position: absolute;
+}
+.title{
+	margin: 0;
+}

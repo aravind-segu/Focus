@@ -1,0 +1,123 @@
+body {
+	background-color: #565656;
+}
+
+#title {
+	color: #D7CEC7;
+	width:100%;
+	font-family: Century Gothic, Helvetica;	
+	font-size: 3vw;
+	position: absolute;
+    text-align: center;
+	vertical-align: middle;
+	margin-top: 3%;
+}
+
+#blockedTitle {
+	color: #D7CEC7;
+	width:100%;
+	font-family: Century Gothic, Helvetica;	
+	font-size: 3vw;
+	position: absolute;
+    text-align: center;
+	vertical-align: middle;
+	margin-top: 3%;
+	
+}
+
+#body {
+	
+  position: absolute;
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 15%;
+
+}
+
+#blockedBody {
+	
+  position: absolute;
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 15%;
+
+}
+
+#visited {
+	
+   position: absolute;
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20%;
+
+}
+.content{
+	color: #D7CEC7;
+	font-family: Century Gothic, Helvetica;	
+	font-size: 2.36vw;
+}
+
+#clockdiv{
+	font-family:Century Gothic, Helvetica;
+	color: #76323F;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 2.36vw;
+	position: absolute;
+	width: 100%;
+	margin-top: 25%;
+}
+#clockdiv > div{
+	padding: 0.789vw;
+	border-radius: 0.236vw;
+	background: #C09F80;
+	display: inline-block;
+}
+#clockdiv div > span{
+	padding: 1.18vw;
+	border-radius: 0.236vw;
+	background: #D7CEC7;
+	color: 76323F;
+	display: inline-block;
+	
+}
+.smalltext{
+	padding-top: 0.39vw;
+	font-size: 1.263vw;
+	color: 76323F;
+}
+a{
+	text-decoration: none;
+	color: #D7CEC7;
+	font-weight: bold;
+}
+
+.button {
+	width: 23.6vw;
+	height: 4.736vw;
+	background-color: #D7CEC7;
+	color: #76323F;
+	font-family:1.89vw;
+	font-size: 2vw;
+	text-align: center;
+	vertical-align:middle;
+	line-height: 4.736vw;
+	border-radius: 0.3947vw;
+	cursor: pointer;
+	position: absolute;
+	align: center;
+	margin: 0 auto;
+	margin-left: -2vw;
+	display: inline-block;
+	
+}
+
+#parentDiv{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 40%;
+}

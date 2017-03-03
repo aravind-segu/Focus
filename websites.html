@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+	<link rel = 'stylesheet' type = 'text/css' href = 'optStyleSheet.css'/>
+	<script type = 'text/javascript' src = 'jquery.js'></script>
+	<script type = 'text/javascript' src = 'optionWindow.js'></script>
+	
+  </head>
+  <body onload = "test1()">
+  <script>
+	function test1(){
+		alert ("Entered");
+		var counter = localStorage ["count"];
+		alert(counter);
+	var websites = JSON.parse(localStorage["websites"]);
+	alert(websites);
+	if (websites == undefined){
+		for(i = 0; i <= counter; i++){
+			websites [i] = "eg.www.facebook.com";
+		}
+	};
+	
+	$(document).ready(function(){
+	$(wrapper).append('<div style = "padding: 5px;" ><input type="text" class = "textBox" id = "" placehoder = "www.facebook.com" name = "mytext[]"></div>');
+	for (i = 2; i <= counter; i++){
+		$(wrapper).append('<div style = "padding: 5px;" ><input type="text" class = "textBox" id = idName value="websites[i-1]" name = "mytext[]"><div class = "removeText"><strong>x</strong></div></div>');
+	}
+	});
+	}
+	</script>
+		<div class = "txtBoxes" id = "TextBoxDiv0">
+					<div style = "padding: 5px;" ><input type="text" id = "textbox1" placeholder = "www.facebook.com"></div>
+			</div>	
+	</body>
+
+</html>
+

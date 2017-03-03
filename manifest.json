@@ -1,0 +1,33 @@
+{
+	"name": "Focus",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "With the touch a button, block distracting websites and get back your time on the internet",
+	"options_page": "options.html",
+	 "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["focus.js","finish.js"]
+    }
+  ],
+  
+  "permissions": [
+	"storage",
+	"tabs",
+    "notifications",
+   "<all_urls>",
+   "https://www.brainyquote.com/link/quotebr.js",
+   "activeTab",
+    "alarms",
+	"notifications"
+   
+  ],
+  "background":{
+	"scripts": ["background.js"]
+  },
+	"browser_action":{
+		"default_icon" : "icon.png",
+		"default_popup": "popup.html"
+	}
+	
+}
